@@ -1,0 +1,46 @@
+# Data files
+data/
+*.csv
+*.json
+kaggle.json
+
+# Model files
+trained_vit_model/
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.h5
+*.hdf5
+*.weights
+
+# Logs
+*.log
